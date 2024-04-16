@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\colorlib-regform-32\css\nunito-font.css" />
+    <None Include="wwwroot\colorlib-regform-32\css\style.css" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Black.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-BlackItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Bold.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-BoldItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraBold.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraBoldItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraLight.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraLightItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Italic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Light.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-LightItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Regular.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-SemiBold.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-SemiBoldItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\OFL.txt" />
+    <None Include="wwwroot\colorlib-regform-32\images\form-v6.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\images\Pizza.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\images\Pizza1.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\images\Sauce1.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\index.html" />
+    <None Include="wwwroot\colorlib-regform-32\readme.txt" />
+    <None Include="wwwroot\feane-1.0.0\about.html" />
+    <None Include="wwwroot\feane-1.0.0\book.html" />
+    <None Include="wwwroot\feane-1.0.0\css\bootstrap.css" />
+    <None Include="wwwroot\feane-1.0.0\css\font-awesome.min.css" />
+    <None Include="wwwroot\feane-1.0.0\css\responsive.css" />
+    <None Include="wwwroot\feane-1.0.0\css\style.css" />
+    <None Include="wwwroot\feane-1.0.0\css\style.css.map" />
+    <None Include="wwwroot\feane-1.0.0\css\style.scss" />
+    <None Include="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\feane-1.0.0\images\about-img.png" />
+    <None Include="wwwroot\feane-1.0.0\images\client1.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\client2.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\f1.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f2.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f3.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f4.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f5.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f6.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f7.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f8.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f9.png" />
+    <None Include="wwwroot\feane-1.0.0\images\favicon.png" />
+    <None Include="wwwroot\feane-1.0.0\images\hero-bg.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\o1.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\o2.jpg" />
+    <None Include="wwwroot\feane-1.0.0\index.html" />
+    <None Include="wwwroot\feane-1.0.0\js\bootstrap.js" />
+    <None Include="wwwroot\feane-1.0.0\js\custom.js" />
+    <None Include="wwwroot\feane-1.0.0\js\jquery-3.4.1.min.js" />
+    <None Include="wwwroot\feane-1.0.0\menu.html" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.27">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SignalR.DataAccesLayer\SignalR.DataAccesLayer.csproj" />
+    <ProjectReference Include="..\SignalR.EntityLayer\SignalR.EntityLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="QRCoder">
+      <HintPath>C:\Users\Muzaffer Karakuş\Downloads\UdemySignalRProject-master\SignalRWebUI\QRCoder.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
